@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 2</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="slider.html">
+JS INICIO</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ 
+Salida
+</h1>
+
+
+<p>
+Usemos JavaScript para imprimir "Hello World" en el navegador.
+
+   
+</p>
+
+
+
+<script>
+document.write("ejemplo de texto impreso en javascript hello");
+</script>
+
+<img src="https://i.ibb.co/2sRdZ8R/IMG-20230124-163035.jpg" alt="IMG-20230124-163035" border="0">
+<p>
+    La función <b>
+    document.write() </b><br />
+    escribe el texto en nuestro documento HTML.<br />
+
+También puedes utilizar el marcado HTML en la salida:
+</p>
+
+<script>
+document.write("<h2>ejemplo de texto impreso en javascript con etiquetas de html hello</h2>");
+</script>
+
+<img src="https://i.ibb.co/1LdvdBv/IMG-20230124-172343.jpg" alt="IMG-20230124-172343" border="0">
+
+<b>nota</b>
+
+<p>
+El método document.write() debe utilizarse sólo para las pruebas. Otros mecanismos de salida aparecen en las próximas lecciones.
+    
+</p>
+
+<h1>Salida a la consola
+    
+</h1>
+
+<p>
+    Mientras que document.write() se utiliza para escribir la salida HTML, la función console.log() se utiliza para realizar la salida a la consola del navegador.<br />
+La consola es parte del navegador web y te permite registrar mensajes, ejecutar código JavaScript y ver errores y advertencias.
+    
+</p>
+
+<script>console.log("ejemplo de un texto de consola")
+    
+</script>
+
+<img src="https://i.ibb.co/NT6Nh8Z/IMG-20230126-174011.jpg" alt="IMG-20230126-174011" border="0">
+
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
