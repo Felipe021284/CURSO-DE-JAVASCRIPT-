@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 3</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="temas.html">
+TEMAS</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ Variables
+
+</h1>
+
+
+<p>
+
+Las <b>
+variables </b><br />
+son contenedores para registrar datos. El valor de una variable puede cambiar a lo largo del programa.<br />
+Utilice la palabra clave <b>
+ var </b>
+ para declarar una variable:
+   
+</p>
+
+<img src="https://i.ibb.co/8KwsVxv/IMG-20230129-182759.jpg" alt="IMG-20230129-182759" border="0"></a>
+
+<p>
+    En el ejemplo anterior, a la variable x le es asignado el valor de 10.<br />
+En JavaScript, el signo igual (=) se llama el operador "asignación", en lugar de un operador "igual a" .<br />
+Por ejemplo, x = y asignará el valor de y a x.
+    
+</p>
+
+
+<b>nota</b>
+
+<p>
+JavaScript es sensible a mayúsculas. Por ejemplo, las variables lastName y lastname, son dos variables diferentes.
+    
+</p>
+
+<h1>
+    Usando Variables
+</h1>
+
+<p>Asignemos un valor a una variable y démosle salida al navegador.<br />
+    ejemplo 
+</p>
+
+
+<script>
+    var x = 100;
+document.write(x);
+</script>
+
+<img src="https://i.ibb.co/Mn69qbM/IMG-20230129-191244.jpg" alt="IMG-20230129-191244" border="0">
+
+<p>
+    El uso de variables es útil de muchas maneras.<br /> Puedes tener mil líneas de código que pueden incluir la variable x.<br /> Puedes cambiar el valor de las variables y usarlas varias veces en tu código.<br />
+    Tambien puedes usar variables en la consola
+</p>
+    
+<img src="https://i.ibb.co/Hdr7Kq5/IMG-20230129-214110.jpg" alt="IMG-20230129-214110" border="0">
+<b>nota</b>
+<p>Cada "instrucción" escrita se llama declaración.<br /> Las declaraciones en JavaScript están separadas por punto y coma.
+    
+</p>
+
+<h1>
+    Nombrando variables
+</h1>
+
+<p>
+    Los nombres de variables en JavaScript son sensibles a las mayúsculas y minúsculas.<br />
+En el ejemplo de abajo cambiamos x a mayúsculas:<br />
+    Este código no dará lugar a ninguna salida, ya que x y X son dos variables diferentes.
+</p>
+<img src="https://i.ibb.co/8XL064t/IMG-20230129-215449.jpg" alt="IMG-20230129-215449" border="0">
+
+<p>
+    Reglas de nombres:<br />
+- El primer caracter debe ser una letra, un guión bajo (_), o un signo de dólar ($). Los caracteres subsiguientes pueden ser letras, dígitos, subrayados o signos de dólar.<br />
+- Los números no están permitidos como el primer caracter.<br />
+- Los nombres de variable no pueden incluir un operador matemático o lógico en el nombre. <br />
+Por ejemplo, 2*algo o esto+eso;<br />
+- Los nombres en JavaScript no deben contener espacios.<br />
+- No debes usar ningún símbolo especial, como my#num, num%, etc.
+    
+</p>
+<b>nota</b>
+<p>
+    Los guiones no están permitidos en JavaScript.<br /> Está reservado para las sustracciones.
+</p>
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
