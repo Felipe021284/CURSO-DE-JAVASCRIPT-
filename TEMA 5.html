@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 5</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="temas.html">
+TEMAS</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ 
+Tipos de datos
+</h1>
+
+
+<p>
+El término <b>
+tipo de dato </b>
+se refiere a los tipos de valores con los que un programa puede trabajar.<br />
+ Las variables de JavaScript pueden contener muchos tipos de datos,<br />
+  como <b><br />
+ números, <br />
+ cadenas,<br /> matrices,<br /></b> y otros...<br />
+ 
+Los números en JavaScript pueden ser escritos con o sin decimales.<br /><br />
+
+ numeros con decimales  
+</p>
+<script>
+    var price = 55.55;//numeros con decimales
+document.write(price);
+    
+</script><br />
+<img src="https://i.ibb.co/MpZ1zfZ/IMG-20230202-154520.jpg" alt="IMG-20230202-154520" border="0">
+<p>numeros sin decimales</p>
+
+
+<script>
+    var num = 666;//numeros sin decimales
+document.write(num);
+    
+</script>
+
+<img src="https://i.ibb.co/NpzDQ8t/IMG-20230205-115628.jpg" alt="IMG-20230205-115628" border="0">
+
+<b>nota</b>
+
+<p>
+
+    Esta variable puede cambiarse fácilmente a otros tipos asignándole cualquier otro valor de tipo de datos, como num = 'some random string'.
+</p>
+
+<h1>
+    Cadenas de texto
+</h1>
+<p>
+    Las cadenas de texto en JavaScript son utilizadas para guardar y manipular texto.<br />
+Una cadena de texto puede ser cualquier texto que aparezca entre comillas. <br /> Puedes usar comillas simples o dobles.<br />
+ejemplo
+    
+</p>
+
+<script>
+    var name = 'John<br/>';
+var text = "My name is John Smith";
+document.write(name);
+document.write(text);
+
+</script>
+
+<img src="https://i.ibb.co/nB4cXhk/IMG-20230205-121439.jpg" alt="IMG-20230205-121439" border="0">
+<p>
+    Puedes utilizar comillas dentro de una cadena de texto, siempre y cuando no sean del mismo tipo que las comillas que rodean la cadena de texto.<br />ejemplo 
+</p>
+
+<script>
+   
+var text = "My name is 'John'";
+document.write(text);
+
+</script>
+<img src="https://i.ibb.co/q9QXL1G/IMG-20230205-122913.jpg" alt="IMG-20230205-122913" border="0">
+<b>nota</b>
+<p>
+    Puedes introducir comillas dobles utilizando el caracter escape así: <br />
+    \" o \' <br />
+    dentro de comillas simples.
+</p>
+
+<h1>Cadenas de texto
+    
+</h1>
+<p>
+    Como las cadenas de texto deben ser escritas entre comillas, hay que considerar como manejar las comillas dentro de una cadena de texto.<br />
+     <b> El carácter de escape barra inversa (\)</b> <br />convierte a los caracteres especiales en caracteres de texto.<br />
+     ejemplo 
+    
+</p>
+
+<script>
+
+var sayHello = 'Hello world! \'I am a JavaScript programmer.\' ';
+document.write(sayHello);
+    
+</script>
+
+<img src="https://i.ibb.co/P4ZG4sh/IMG-20230205-162855.jpg" alt="IMG-20230205-162855" border="0">
+
+<p>
+El carácter de escape (\) puede también ser usado para insertar otros caracteres especiales dentro de una cadena de texto.<br />
+Estos caracteres especiales pueden ser añadidos a una cadena de texto usando el signo de barra inversa.
+    
+    
+</p>
+
+<img src="https://i.ibb.co/F4H6KGr/IMG-20230205-164325.jpg" alt="IMG-20230205-164325" border="0">
+
+<b>nota</b>
+<p>
+    Si comienzas una cadena de texto con una comilla simple, debes terminarla también con una comilla simple.<br />
+     La misma regla aplica para comillas dobles.<br /> De lo contrario, JavaScript se confundiría.
+</p>
+
+<h1>Booleanos
+    
+</h1>
+
+<p>En JavaScript, un Booleano (tipo de dato lógico) es aquel donde sólo puedes tener dos valores:<br /> true (verdadero) <br /> o false (falso).<br />
+Estos son útiles cuando necesitas un tipo de dato que sólo pueda tener uno de dos valores, tales como Sí/No, Encendido/Apagado, Verdadero/Falso.<br />
+ejemplo 
+    
+</p>
+
+<script>
+    var isActive = true; 
+var isHoliday = false;
+
+document.write(isActive );
+
+document.write(isHoliday );
+</script>
+
+<img src="https://i.ibb.co/1mStZMb/IMG-20230205-181509.jpg" alt="IMG-20230205-181509" border="0">
+
+<b>nota</b>
+<p>
+    El valor Booleano de 0 (cero), null (nulo), undefined (indefinido), cadena de texto vacía es falso.<br />
+Todo lo que tenga un valor "real" es verdadero.
+</p>
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
