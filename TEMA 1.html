@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 1</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="temas.html">
+TEMAS</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+  ¡Bienvenido a JavaScript!
+
+</h1>
+ <p>
+    
+
+¿Alguna vez has visitado un sitio web que te ha hecho pensar... "Vaya, este sitio web es realmente genial e interactivo"? Pues bien, JavaScript probablemente estaba haciendo que esto sucediera...<br /><br />
+
+En este curso, aprenderemos los conceptos básicos de JavaScript, uno de los lenguajes de programación más populares que hace que los sitios web sean dinámicos e interactivos. Con JavaScript, también puedes crear apps y juegos para móviles, procesar datos, ¡y mucho más!
+     
+ </p>
+ 
+ <h1>
+     Salida
+     
+ </h1>
+ 
+ <p>
+    
+
+
+
+Empecemos creando un programa genere "Hello World!" a la consola utilizando la función console.log(). ¡Prueba esto!
+
+     </p>
+     <img src="https://i.ibb.co/L8qvhLc/IMG-20230405-073228.jpg" alt="IMG-20230405-073228" border="0">
+     
+     <img src="https://i.ibb.co/2KDbxTy/IMG-20230405-073440.jpg" alt="IMG-20230405-073440" border="0">
+     
+ 
+ <b>nota</b>
+ 
+ <p>
+     
+La consola forma parte del navegador web y permite registrar mensajes, ejecutar código JavaScript y ver errores y advertencias.
+
+     
+ </p>
+ 
+ <h1>
+     TEXTO
+ </h1>
+ 
+ <p>
+
+Para utilizar el texto en JavaScript, tenemos que encerrarlo en comillas:
+     
+ </p>
+ 
+ <h1>SALIDA</h1>
+ 
+ <p>
+
+Puedes usar la función console.log() tantas veces como quieras. Cada declaración produce el texto de una nueva línea.
+
+
+</p>
+<img src="https://i.ibb.co/zP5HGvs/IMG-20230405-074605.jpg" alt="IMG-20230405-074605" border="0">
+
+<img src="https://i.ibb.co/nDkg9Sc/IMG-20230405-074850.jpg" alt="IMG-20230405-074850" border="0">
+
+
+ <b>NOTA</b>
+ <p>
+     Un programa de ordenador es una lista de "instrucciones" que debe "ejecutar" un ordenador.<br />
+
+En un lenguaje de programación, estas instrucciones de programación se denominan declaraciones.<br />
+Ten en cuenta que cada declaración debe terminar con un punto y coma.
+
+     
+ </p>
+ 
+ <h1>NUMEROS</h1>
+ 
+ <p>
+    
+
+Cuando se trabaja con números, no se necesitan las comillas.<br />
+
+
+
+JavaScript trata los números y el texto de forma diferente
+
+
+     
+ </p>
+ <img src="https://i.ibb.co/nLwcgJX/IMG-20230405-091427.jpg" alt="IMG-20230405-091427" border="0">
+ <img src="https://i.ibb.co/dm030b9/IMG-20230405-091745.jpg" alt="IMG-20230405-091745" border="0">
+ 
+ 
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
