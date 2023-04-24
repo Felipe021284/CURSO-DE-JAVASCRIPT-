@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 4</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="menu principal.html">
+INICIO</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ Variables
+
+</h1>
+ <p>
+    
+En las apps, normalmente necesitamos almacenar algunos valores y trabajar con ellos a lo largo del programa para que el acceso a ellos sea mucho más cómodo.<br /><br />
+
+Lo hacemos mediante el uso de variables, que son contenedores para almacenar valores. Las variables se crean con la palabra clave let:
+
+     
+ </p>
+ <b>ejemplo</b>
+ 
+ 
+ 
+ <img src="https://i.ibb.co/8z2KxBS/IMG-20230424-081835.jpg" alt="IMG-20230424-081835" border="0">
+ 
+
+
+
+
+
+     
+ 
+ <b>nota</b>
+ 
+ <p>
+ name es el nombre de nuestra
+ 
+ </p>
+ 
+ <h1>
+ Variables
+
+</h1>
+ 
+ <p>
+     Después de crear la variable podemos darle un valor. Esto se llama inicialización. <br /><br />Ahora la variable name tiene el valor "James", que son datos de texto.
+     
+ </p>
+ 
+ 
+ <b>ejemplo</b>
+ 
+ <img src="https://i.ibb.co/XVZnYGW/IMG-20230424-083508.jpg" alt="IMG-20230424-083508" border="0">
+ 
+ <b>nota</b>
+ 
+ <p>
+     
+     El signo igual = se utiliza para asignar un valor a nuestra variable.
+ </p>
+ 
+ <h1>
+     Variables
+ </h1>
+ 
+ <p>
+     JavaScript puede hacerlo aún más fácil. También puedes asignar tu variable un valor durante la creación:
+ </p>
+ 
+ <b>
+     ejemplo
+ </b>
+ <img src="https://i.ibb.co/DQDQY1H/IMG-20230424-124455.jpg" alt="IMG-20230424-124455" border="0">
+ 
+ <b>nota</b>
+ <p>
+     Recuerda que debemos encerrar los valores de texto entre comillas.
+ </p>
+ 
+ <h1>
+     Variables
+ </h1>
+
+<p>
+    Las variables pueden cambiar su valor durante el programa. ¡Por eso se llaman variables 
+</p>
+
+<b>ejemplo</b>
+
+<img src="https://i.ibb.co/B2hDPXw/IMG-20230424-125458.jpg" alt="IMG-20230424-125458" border="0">
+
+<img src="https://i.ibb.co/5st8gsG/IMG-20230424-125716.jpg" alt="IMG-20230424-125716" border="0">
+<b>nota</b>
+<p>
+    La actualización del valor de una variable puede hacerse tantas veces como sea necesario.
+    
+</p>
+
+<h1>Variables
+    
+</h1>
+
+<p>
+    En la última versión de JavaScript, la palabra clave var se utilizó en lugar de let, para declarar variables:<br /><br />
+    
+let es la forma moderna de declarar variables y tiene una serie de ventajas sobre var.<br /><br />
+
+Por ejemplo, var te permite volver a declarar variables con el mismo nombre, mientras que let da lugar a un error, lo que hace que el código sea más seguro.
+</p>
+
+<b>ejemplo</b>
+<img src="https://i.ibb.co/PM2y1Bq/IMG-20230424-131900.jpg" alt="IMG-20230424-131900" border="0">
+
+
+<img src="https://i.ibb.co/PYpGhd3/IMG-20230424-132033.jpg" alt="IMG-20230424-132033" border="0">
+
+<b>nota</b>
+<p>Se recomienda utilizar let en vez de var, al declarar las variables.
+    
+</p>
+
+<h1>
+    Constantes
+</h1>
+
+<p>
+    Puede haber casos en los que necesites decirle al programa que la variable no puede cambiar su valor a lo largo del programa. ¡Aquí vienen las <br /><br />
+
+constantes! Las constantes son similares a las variables y se declaran con la palabra clave const:
+    
+</p>
+<b>ejemplo</b>
+<img src="https://i.ibb.co/NLHYxTj/IMG-20230424-134246.jpg" alt="IMG-20230424-134246" border="0">
+
+<img src="https://i.ibb.co/dmCVygP/IMG-20230424-134416.jpg" alt="IMG-20230424-134416" border="0">
+<b>nota</b>
+<p>
+    Las constantes deben tener un valor cuando se declaran y no pueden cambiar su valor.<br />
+
+Las constantes son muy útiles. <br />
+Si
+
+utilizas const, le dice a cualquiera que
+
+vea tu código que esta variable nunca
+
+será asignada a un valor diferente.
+</p>
+
+<h1>
+    Reglas de denominacion de variables
+    
+</h1>
+<p>
+    Hablemos de los nombres.<br /><br />
+
+Existen varias normas para los nombres que hay que seguir en JavaScript:<br /><br />
+
+los nombres de las variables deben comenzar con una letra, una barra baja o un signo de dolar $ Los nombres de las variables no contienen espacios <br /><br />
+
+Los nombres de las variables sólo pueden contener letras, números, guiones bajos o signos de dólar.<br /><br />
+
+Los nombres de las variables distinguen entre mayúsculas y minúsculas, lo que significa que, por ejemplo, las variables Name y name son diferentes
+</p>
+ 
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
