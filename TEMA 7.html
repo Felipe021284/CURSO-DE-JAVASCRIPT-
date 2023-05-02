@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 7</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="menu principal.html">
+INICIO</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ Operadores de asignación
+
+</h1>
+ <p>
+    
+Los operadores de asignación asignan valores a las variables. <br />
+Ya conoces una de ellas: al inicializar una variable utilizamos el operador de asignación = para asignarle un valor:
+
+     
+ </p>
+ <b>ejemplo</b>
+ <img src="https://i.ibb.co/w74PKyM/IMG-20230502-081131.jpg" alt="IMG-20230502-081131" border="0">
+ 
+ <p>
+     
+¡Es hora de un poco de azúcar de sintaxis! <br /> JavaScript tiene mucho de eso. <br />
+ Puedes crear diferentes variables en la misma línea, separándolas con comas:
+ </p>
+
+ <b>ejemplo</b>
+ 
+<img src="https://i.ibb.co/GMhNFpL/IMG-20230502-081829.jpg" alt="IMG-20230502-081829" border="0">
+
+<img src="https://i.ibb.co/vkwJh1n/IMG-20230502-082013.jpg" alt="IMG-20230502-082013" border="0">
+
+<p>
+    Imaginemos que estás creando un juego de recolección de monedas.<br />
+     El juego comienza con una puntuación de 100, y cuando el jugador recoge una moneda la puntuación aumenta en 10.<br />
+      En este caso, escribirás este código:
+    
+</p>
+
+<b>ejemplo</b>
+
+<img src="https://i.ibb.co/DW7krL8/IMG-20230502-082614.jpg" alt="IMG-20230502-082614" border="0">
+
+
+<b>nota</b>
+<p>
+    Pero hay una manera más fácil de hacer esto.
+    
+</p>
+
+<h1>
+    Operadores de asignación
+</h1>
+
+<p>
+    JavaScript te permite escribir el código 'score = score + 10' de forma más concisa, utilizando el operador +=
+    
+</p>
+
+<b>ejemplo</b>
+
+
+<img src="https://i.ibb.co/D8JyyN8/IMG-20230502-102050.jpg" alt="IMG-20230502-102050" border="0">
+
+<img src="https://i.ibb.co/vqLqRtP/IMG-20230502-102256.jpg" alt="IMG-20230502-102256" border="0">
+
+<b>nota</b>
+
+<p>
+    Este operador se llama operador de asignación de suma.
+    
+</p>
+
+<h1>Operadores de asignación
+    
+</h1>
+
+<p>
+    Lo mejor de todo es que este patrón puede seguirse para otros operadores aritméticos:
+
+    
+</p>
+
+
+<b>ejemplo</b>
+
+<img src="https://i.ibb.co/c6fTJrC/IMG-20230502-104746.jpg" alt="IMG-20230502-104746" border="0">
+
+<img src="https://i.ibb.co/XJhm8Pw/IMG-20230502-104908.jpg" alt="IMG-20230502-104908" border="0">
+
+<p>
+    Puedes realizar las mismas operaciones con dos variables.
+</p>
+
+<b>ejemplo</b>
+
+<img src="https://i.ibb.co/GC18YN6/IMG-20230502-175157.jpg" alt="IMG-20230502-175157" border="0">
+
+
+<img src="https://i.ibb.co/GPrCpc8/IMG-20230502-175715.jpg" alt="IMG-20230502-175715" border="0">
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
