@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 9</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="menu principal.html">
+INICIO</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ 
+Plantillas literales
+</h1>
+ <p>
+    
+Las plantillas literales son otra forma de crear cadenas y trabajar con ellas de forma más flexible.<br />
+Usan comillas invertidas (``) <br />
+en lugar de las comillas ("") <br />
+ para definir una cadena:
+ </p>
+ 
+ <b>ejemplo</b>
+ 
+ 
+<img src="https://i.ibb.co/QCvPYxh/IMG-20230512-135038.jpg" alt="IMG-20230512-135038" border="0">
+
+<img src="https://i.ibb.co/JBwzVgK/IMG-20230512-135239.jpg" alt="IMG-20230512-135239" border="0">
+
+<p>Con las plantillas literales, puede utilizar tanto comillas simples como dobles dentro de una cadena.
+    
+</p>
+<b>ejemplo</b>
+<img src="https://i.ibb.co/Y49qC6b/IMG-20230512-135829.jpg" alt="IMG-20230512-135829" border="0">
+
+<img src="https://i.ibb.co/HNhyx3t/IMG-20230513-105453.jpg" alt="IMG-20230513-105453" border="0">
+
+<p>
+    Las plantillas literales permiten múltiples cadenas, sin usar \n:
+</p>
+<b>ejemplo</b>
+
+<img src="https://i.ibb.co/CsmP0Dr/IMG-20230513-105929.jpg" alt="IMG-20230513-105929" border="0">
+
+<img src="https://i.ibb.co/NYBkcdH/IMG-20230513-110508.jpg" alt="IMG-20230513-110508" border="0">
+
+Las plantillas literales te permiten utilizar variables dentro de las cadenas.<br />
+Es necesario añadir un símbolo de dólar $ y encerrar el nombre de la variable en llaves ◊.
+<br /><br />
+ El valor de la variable se mostrará automáticamente en la salida.
+
+<b>ejemplo</b>
+
+<img src="https://i.ibb.co/SypV9GG/IMG-20230513-141123.jpg" alt="IMG-20230513-141123" border="0">
+
+
+<img src="https://i.ibb.co/mSF6Rd6/IMG-20230513-141240.jpg" alt="IMG-20230513-141240" border="0">
+
+
+ <b>nota</b>
+ 
+ <p>
+ No es necesario escapar las comillas dentro de las plantillas literales. 
+
+
+ </p>
+ 
+
+ 
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
