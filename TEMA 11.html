@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 11</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="menu principal.html">
+INICIO</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ Booleanos
+
+</h1>
+ <p>
+    
+
+¿Recuerdas los tipos de dato booleano (Boolean) ? Recapitulemos rápidamente lo que son y luego veámoslos en acción.<br /><br />
+
+Los tipos de datos booleanos sólo pueden tomar los valores true (verdadero)o false(falso).
+     
+ </p>
+ 
+ 
+<b>ejemplo</b>
+
+<img src="https://i.ibb.co/GVh7jdv/IMG-20230518-084849.jpg" alt="IMG-20230518-084849" border="0">
+
+
+<img src="https://i.ibb.co/4NQzPVk/IMG-20230518-085009.jpg" alt="IMG-20230518-085009" border="0">
+
+<h1>Operadores de comparación
+    
+</h1>
+
+<p>
+    
+    Imagina que estás creando un juego, y que tu código debe comprobar si la puntuación del jugador es superior a 99.<br />
+     Técnicamente hablando, necesitas evaluar si la expresión es verdadera o falsa.
+</p>
+     
+ 
+ <b>ejemplo</b>
+ 
+ <img src="https://i.ibb.co/M5WZmjD/IMG-20230518-124508.jpg" alt="IMG-20230518-124508" border="0">
+ 
+<img src="https://i.ibb.co/M229xNC/IMG-20230518-131331.jpg" alt="IMG-20230518-131331" border="0">
+
+<p>JavaScript tiene una serie de operadores de comparación:<br /><br />
+
+igual a == <br />
+
+no igual a != <br />
+
+mayor que > <br />
+
+ menor que < <br />
+
+mayor o igual a >= <br />
+
+ menor o igual a <= <br />
+
+    
+    
+</p>
+
+<b>ejemplo</b>
+ 
+ <img src="https://i.ibb.co/nrPMP3H/IMG-20230518-133232.jpg" alt="IMG-20230518-133232" border="0">
+ 
+<img src="https://i.ibb.co/rv7rWfQ/IMG-20230518-133446.jpg" alt="IMG-20230518-133446" border="0">
+
+
+<p>
+    Los operadores de comparación de Igualdad estricta === devuelve falso para los valores que no son de un tipo similar.
+</p>
+ 
+ <b>ejemplo</b>
+ <img src="https://i.ibb.co/c1hk9fK/IMG-20230518-140030.jpg" alt="IMG-20230518-140030" border="0">
+ 
+<img src="https://i.ibb.co/86LcDkp/IMG-20230518-140722.jpg" alt="IMG-20230518-140722" border="0">
+ 
+ 
+ <p>
+     
+En el ejemplo anterior, x y y tienen valores iguales, pero tipos diferentes: <br />
+x es un número, y y es una cadena. <br />
+Por eso == devuelve true, <br />
+mientras que los operadores de igualdad estricta === devuelve false.
+     
+ </p>
+ 
+ <h1>
+     Booleanos
+     
+ </h1>
+ 
+ <p>
+     Los operadores mayor que y menor que también pueden utilizarse para comparar cadenas lexicográficamente (donde el orden alfabético de las palabras se basa en el orden alfabético de las letras que las componen).
+ </p>
+ 
+ <b>ejemplo</b>
+ 
+ 
+<img src="https://i.ibb.co/0XGWpY1/IMG-20230518-171935.jpg" alt="IMG-20230518-171935" border="0">
+
+
+<img src="https://i.ibb.co/jMkfbVv/IMG-20230518-172140.jpg" alt="IMG-20230518-172140" border="0">
+ 
+ <b>nota</b>
+ 
+ 
+ <p>
+ 
+ > es un operador de comparación, que compara los valores y da como resultado los correspondientes valores booleanos - ya sea true o false. 
+ 
+ </p>
+ 
+
+ 
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
