@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Mukta:wght@800&display=swap" rel="stylesheet">
+
+    <title>TEMA 12</title>
+    <style>
+    /* COLOR DE FONDO ANIMADO*/
+:root {
+  --gradient: linear-gradient(-45deg,white, blue,black,blue,white );
+}
+    
+    
+        body {
+    color:white;
+    font-family: arial;
+    Background-color:black;
+    font-family: 'Baloo 2';
+} 
+.menu{
+ display: inline-block;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  Margin:10px;
+  width: 110px;
+  height:30px;
+  Padding:5px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px white solid;
+  box-shadow:0px 0px 10px 1px inset white,
+                  0px 0px 10px 1px white;
+  text-shadow: -2px 1px purple;
+  
+  min-height: 30px;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+  
+/*codigo de fondo animado*/
+  }
+  @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+ .uno{
+    color:white;
+    border: 1px white solid;
+    box-shadow:0px 0px 10px 2px inset white,
+               0px 0px 10px 2px white;
+    padding:10px;
+    Margin:5px;
+    min-height: 100%;
+  background-size: 300%;
+  background-image: var(--gradient);
+  -webkit-animation: bg-animation 20s infinite;
+          animation: bg-animation 20s infinite;
+      }
+      @-webkit-keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+
+      
+   A,h1,h2{
+       animation: animate 20s infinite linear;
+       text-align:center; 
+       text-shadow: -2px 2px black,
+          -3px 3px gray;
+       text-decoration:none;
+        }
+        @keyframes animate
+{
+    0%,100%{
+        color: lawngreen;
+    }
+    25%{
+        color: deeppink;
+    }
+    50%{
+        color:deepskyblue;
+    }
+    75%{
+        color: black;
+    }
+}
+
+   
+   b{Color:white;
+        text-transform: uppercase;
+        font-style: italic;
+        
+       
+   }
+   img{
+       border:2px solid black
+       ;
+       width:100%;
+   }
+   
+   p {
+    text-indent: 30px;
+    text-transform: capitalize;
+}
+
+.dos{
+
+    background-color: rgba(0,0, 0,0.1)
+}
+
+
+/*ejemplos*/
+
+
+.tres {
+  filter: blur(5px) hue-rotate(180deg);
+}
+
+
+
+   
+   
+   
+   </style>
+    </head>
+    <body>
+    <div class="menu">
+      <a 
+      href="menu principal.html">
+INICIO</a>
+      
+            
+        </div>
+   <div class="uno">
+   <div class="dos">
+   <article>
+<h1>
+ La declaración if
+
+</h1>
+ <p>
+    Bien, ahora ya sabes cómo evaluar expresiones, pero ¿para qué sirven? <br />
+
+Supongamos que está creando un programa para una tienda, donde se ofrece un descuento si(if) el total de la compra supera los 1500. <br />
+
+Esto significa que tu programa necesita realizar alguna acción sólo si la condición dada es true. Y aquí es donde la declaración if entra en juego. Una declaración if se ve así:
+
+
+     
+ </p>
+ 
+ 
+<img src="https://i.ibb.co/S5GvS9v/IMG-20230525-134311.jpg" alt="IMG-20230525-134311" border="0">
+
+<p>
+    Por lo tanto, vamos a utilizar la declaración if en nuestro ejemplo con el descuento en la tienda.<br /> Aquí está la solución:
+</p>
+<b>ejemplo</b>
+<img src="https://i.ibb.co/7yjD44m/IMG-20230525-135020.jpg" alt="IMG-20230525-135020" border="0">
+
+<img src="https://i.ibb.co/9vNFc8v/IMG-20230525-135140.jpg" alt="IMG-20230525-135140" border="0">
+
+
+<p>
+    La condición 'purchase=> 1500' es true, para que se ejecute el código dentro de la sentencia if.
+
+    
+</p>
+ 
+ 
+ <p>
+     Si la condición es false, el bloque de código no se ejecutará:
+
+ </p>
+<img src="https://i.ibb.co/NYLCV1X/IMG-20230527-110831.jpg" alt="IMG-20230527-110831" border="0">
+
+<p>
+    Puedes usar cualquier expresión que pueda ser evaluada como true o false por tu declaración if. <br />
+    Aquí hay un ejemplo con el operador igual:
+</p>
+
+
+     <b>ejemplo</b>
+ 
+ 
+<img src="https://i.ibb.co/MGV8JJ6/IMG-20230527-133250.jpg" alt="IMG-20230527-133250" border="0">
+ 
+
+<img src="https://i.ibb.co/1Z9rtYH/IMG-20230527-133832.jpg" alt="IMG-20230527-133832" border="0">
+ 
+ 
+ <p>
+     A continuación se muestra un ejemplo de cómo podemos crear un sencillo programa de felicitación personalizado utilizando una sentencia if y una plantilla literal:
+     
+ </p>
+ 
+ <b>ejemplo</b>
+ 
+ 
+<img src="https://i.ibb.co/MkrR5Cy/IMG-20230527-135431.jpg" alt="IMG-20230527-135431" border="0">
+ 
+ 
+<img src="https://i.ibb.co/SKspXPY/IMG-20230527-135557.jpg" alt="IMG-20230527-135557" border="0">
+ 
+ 
+ <b>nota</b>
+ 
+ <p>
+ 
+ Ten en cuenta que la condición debe estar encerrada en paréntesis, seguida por llaves, donde se escribe el bloque de código.
+ </p>
+ 
+ 
+ <h1>
+ La declaración if
+
+</h1>
+ <p>
+     A veces tendremos que realizar comprobaciones más complejas.<br />
+      Pero eso no es un problema porque las declaraciones if pueden estar anidadas, una dentro de otra.
+ </p>
+ 
+ 
+ <b>ejemplo</b>
+ 
+<img src="https://i.ibb.co/b2m8101/IMG-20230527-141016.jpg" alt="IMG-20230527-141016" border="0">
+
+<img src="https://i.ibb.co/k1S2jsQ/IMG-20230527-141149.jpg" alt="IMG-20230527-141149" border="0">
+
+ 
+ <b>nota</b>
+ 
+ <p>
+     
+     En el caso de la anidamiento, la segunda declaración if se ejecutará sólo si la condición de la primera se evalúa como verdadera.
+ </p>
+ 
+
+ 
+
+ </article>
+    </div>
+  </div>
+  </body>
+</html>
